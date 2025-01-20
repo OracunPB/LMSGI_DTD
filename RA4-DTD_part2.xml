@@ -1,0 +1,53 @@
+<?xml version="1.0" enconding="UTF-8">
+
+<cataleg>
+  <llista_actors>
+    <actor id="A1982">
+      <nom>Joan Jorda</nom>
+      <edat>30</edat>
+    </actor>
+    <actor id="A1983">
+      <nom>Pascal Trapella</nom>
+      <edat>29</edat>
+    </actor>
+    <actor id="A1984">
+      <nom>Joe Mama</nom>
+      <edat>47</edat>
+    </actor>
+  </llista_actors>
+
+  <llista_pelicules>
+    <pelicula id="P365">
+      <titol idioma="eng">Matrox</titol>
+      <director>Paco Elpecas</director>
+      <any>1999</any>
+      <actors>
+        <actor_ref ref="A1982"/>
+        <actor_ref ref="A1983"/>
+      </actors>
+    </pelicula>
+    <pelicula id="P366">
+      <titol idioma="esp">Avatar 4</titol>
+      <director>Leonard Zarrapastra</director>
+      <any>2076</any>
+      <actors>
+        <actor_ref ref="A1983"/>
+        <actor_ref ref="A1984"/>
+      </actors>
+    </pelicula>
+    <pelicula id="P367">
+      <titol idioma="fra">Pukemun Adventures</titol>
+      <director>Jean-Pierre La-parsonne</director>
+      <any>2001</any>
+      <actors>
+        <actor_ref ref="A1984"/>
+      </actors>
+    </pelicula>
+  </llista_pelicules>
+
+  <llista_recomanacions_pelicules>
+    <recomanacio ref="P365"/>
+    <recomanacio ref="P366"/>
+    <recomanacio ref="P367"/>
+  </llista_recomanacions_pelicules>
+</cataleg>
